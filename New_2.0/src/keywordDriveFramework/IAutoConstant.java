@@ -1,0 +1,14 @@
+package keywordDriveFramework;
+
+public interface IAutoConstant {
+
+	
+	String EXCEL_PATH="./data/TestDataActiTime.xlsx";
+	String PROP_PATH="./data/config.properties";
+	
+	String CHROME_KEY="webdriver.chrome.driver";
+	String GECKO_KEY="webdriver.gecko.driver";
+	
+	String CHROME_VALUE="E:\\drivers\\chromedriver.exe";
+	String GECKO_VALUE="E:\\drivers\\geckodriver.exe";
+}
